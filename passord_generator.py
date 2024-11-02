@@ -21,7 +21,7 @@ def save_password_to_db(username, password):
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="ritheeshx12",
+        password="admin",
         database="password_db"
     )
     
